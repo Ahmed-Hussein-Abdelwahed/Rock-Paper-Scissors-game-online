@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, "courier new", monospace, sans-serif;
+}
+.container {
+  width: 98vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+.container button {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(180, 62%, 79%);
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container button:hover {
+  background-color: hsl(195, 76%, 16%);
+  color: white;
+}
+.players-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 700px;
+  padding-bottom: 100px;
+}
+.players-cont p {
+  font-size: 1.5em;
+  color: hsl(180, 20%, 21%);
+  font-weight: bold;
+}
+.player,
+.computer {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+.player img,
+.computer img {
+  width: 285px;
+  height: 285px;
+  border-radius: 50%;
+  border: 5px solid lightgreen;
+}
+.symbols {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3px;
+  flex-wrap: wrap;
+  width: 700px;
+  height: 190px;
+  border: 3px solid hsl(103, 78%, 56%);
+  border-radius: 10px;
+  background-color: hsl(222, 26%, 93%);
+}
+.symbols img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.symbols img:hover {
+  filter: brightness(150%);
+  border: 5px solid gray;
+}
+.result {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
