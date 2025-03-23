@@ -5,3 +5,5 @@ Rock Paper Scissors online game
 * HTML
 * CSS
 * JS
+  - JS HTML DOM
+  - JS HTML BOM
